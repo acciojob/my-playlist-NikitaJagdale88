@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
 *{
-padding:0;
-margin:0;
+    padding:0;
+    margin:100;
 	box-sizing:border-box;
 }
 body{
@@ -11,15 +11,18 @@ body{
 h1,h2{
 	text-align:center;
 }
+
+
 .player_one{
-	border:2px solid black;
-	border-radius:5px;
+	border:2px solid gray;
+	border-radius:6px;
 	padding:1rem;
 	background:white;
+	
 }
 .player_one>ul{
-/* 	border:2px solid black; */
-display:flex;
+
+    display:flex;
 	flex-direction:column; 
 }
 .player_one ul>li{
@@ -27,7 +30,7 @@ display:flex;
 }
 .player_one>ul li a{
 	text-decoration:none;
-	color:brown;
+	color:black;
 }
 
 .player_two{
@@ -36,9 +39,6 @@ display:flex;
 	background-color:white;
 	display:flex;
 	flex-direction:column;
-/* 	justify-content:center; */
-/* 	align-content:center; */
-/* 	align-items:center; */
 	padding:1rem;
 	border-radius:10px;
 }
